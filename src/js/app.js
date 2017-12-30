@@ -88,27 +88,27 @@ document.addEventListener("DOMContentLoaded", function () {
       },
       "modes": {
         "grab": {
-          "distance": 400,
+          "distance": 300,
           "line_linked": {
             "opacity": 1
           }
         },
         "bubble": {
-          "distance": 400,
+          "distance": 300,
           "size": 40,
-          "duration": 2,
+          "duration": 3,
           "opacity": 8,
-          "speed": 3
+          "speed": 4
         },
         "repulse": {
-          "distance": 200,
-          "duration": 0.4
+          "distance": 100,
+          "duration": 0.5
         },
         "push": {
           "particles_nb": 4
         },
         "remove": {
-          "particles_nb": 2
+          "particles_nb": 3
         }
       }
     },
