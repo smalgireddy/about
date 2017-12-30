@@ -6,14 +6,14 @@ document.addEventListener("DOMContentLoaded", function () {
   particlesJS('particles-js', {
     "particles": {
       "number": {
-        "value": 30,
+        "value": 60,
         "density": {
           "enable": true,
           "value_area": 800
         }
       },
       "color": {
-        "value": "#80ffff"
+        "value": "#ffffff"
       },
       "shape": {
         "type": "polygon",
@@ -105,7 +105,7 @@ document.addEventListener("DOMContentLoaded", function () {
           "duration": 0.5
         },
         "push": {
-          "particles_nb": 4
+          "particles_nb": 5
         },
         "remove": {
           "particles_nb": 3
