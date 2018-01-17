@@ -17,14 +17,14 @@
 </div>
 <div class="user-projects">
   <div class="images-left">
-    <img alt="mountains" src="{{ "/assets/img/skate.jpg" | prepend: site.baseurl }}" />
+    <img alt="mountains" src="{{ "/assets/img/doom.png" | prepend: site.baseurl }}" />
   </div>
   <div class="contents-right">
-    <h3> Project Title </h3>
+    <h3> Playing Doom with Reinforcement Learning and Linear Feature Repre-sentations </h3>
     <ul>
-      <li> Featured Skills</li>
+      <li> Python, OpenCV, Reinforcement Learning: SARSA, Q-Learning</li>
     </ul>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    <a class="project-link" href="#">Check it out</a>
+    <p>In this Project, our agent is in a closed room and has to battle against several demons that can be classified in two types: demons throwing fire balls (they only move to the sides), and short-distance attack demons that slowly approach to our agent. Both of them respawn. The specific characteristics of the game are as follow. The objective on each episode is to kill as many monsters. For every monster killed, 1 point is received, and for every time our agent is killed, one point is subtracted. There are three possible actions for our agent: turn left, turn right and shoot. To complete the goal proposed in the simulator, the agent needs to reach 15 as the best 100-episode average reward. To get 15 points in one episode our agent either has to kill 16 monsters before being killed, or kill 15 monsters without being killed. In this work, we create a machine learning agent that play Doom Defend Line, which is a scenario from the classic game Doom. We hypothesize that by using two different RL methods separately we can create an agent that is competi-tive enough to score 15 points in average through 100 con-secutive episodes which is the goal proposed in the simula-tor website.</p>
+    <a class="project-link" href="https://github.com/smalgireddy/Doom-Reinforcement-Learning">Check it out</a>
   </div>
 </div>
