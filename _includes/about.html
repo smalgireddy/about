@@ -1,32 +1,16 @@
 <script type="text/javascript">
  window.onload = function() {
   var testDataNew = [
-  {times: [{"starting_time": new Date(2006, 9, 1, 0, 0, 0, 0),
-  "ending_time": new Date(2007, 7, 1, 0, 0, 0, 0), "label":"<tspan font-weight = \"bold\"> 09/2003-07/2007 </tspan>: Fudan University Bachelor", "color": "#f6841f"}]},
-  {times: [{"starting_time": new Date(2007, 6, 1, 0, 0, 0, 0),
-  "ending_time" : new Date(2007, 9, 15, 0, 0, 0, 0), "label":"<tspan font-weight = \"bold\">2007 Summer </tspan>: Software Engineer Intern, Accenture", "color": "#4efc19"}]},
-  {times: [{"starting_time": new Date(2007, 9, 1, 0, 0, 0, 0),
-  "ending_time": new Date(2010, 7, 1, 0, 0, 0, 0), "label":"<tspan font-weight = \"bold\"> 09/2007-07/2010</tspan>: Fudan University Master", "color": "#fcd712"}]},
-  {times: [{"starting_time": new Date(2008, 7, 1, 0, 0, 0, 0),
-  "ending_time": new Date(2008, 9, 30, 0, 0, 0, 0), "label":"<tspan font-weight = \"bold\"> 2008 Summer</tspan>: Research Intern, Microsoft Research Asia","color": "#4efc19"}]},
-  {times: [{"starting_time": new Date(2009, 5, 1, 0, 0, 0, 0),
-  "ending_time": new Date(2009, 8, 30, 0, 0, 0, 0), "label":"<tspan font-weight = \"bold\"> 2009 Summer</tspan>: R&D Intern, Baidu Shanghai", "color": "#4efc19"}]},
-  {times: [{"starting_time": new Date(2010, 9, 1, 0, 0, 0, 0),
-  "ending_time": new Date(2014, 6, 15, 0, 0, 0, 0), "label":"<tspan font-weight = \"bold\"> 09/2010--06/2014</tspan>: Northwestern University Ph.D.", "color": "#00a3ff"}]},
-  {times: [{"starting_time": new Date(2011, 6, 15, 0, 0, 0, 0),
-  "ending_time": new Date(2011, 9, 15, 0, 0, 0, 0), "label":"<tspan font-weight = \"bold\"> 2011 Summer</tspan>: Research Intern, Microsoft Research Redmond", "color": "#4efc19"}]},
-  {times: [{"starting_time": new Date(2012, 6, 15, 0, 0, 0, 0),
-  "ending_time": new Date(2012, 9, 15, 0, 0, 0, 0), "label":"<tspan font-weight = \"bold\"> 2012 Summer</tspan>: SDE Intern, Google Research", "color": "#4efc19"}]},
-    {times: [{"starting_time": new Date(2012, 10, 1, 0, 0, 0, 0),
-  "ending_time": new Date(2012, 12, 15, 0, 0, 0, 0), "label":"<tspan font-weight = \"bold\"> 2012 Fall</tspan>: Visiting student, UCLA VCLA lab", "color": "#00a3ff"}]},
-  {times: [{"starting_time": new Date(2013, 6, 15, 0, 0, 0, 0),
-  "ending_time": new Date(2013, 9, 15, 0, 0, 0, 0), "label":"<tspan font-weight = \"bold\"> 2013 Summer</tspan>: SDE Intern, Google", "color": "#4efc19"}]},
-  {times: [{"starting_time": new Date(2014, 1, 15, 0, 0, 0, 0),
-  "ending_time": new Date(2014, 2, 20, 0, 0, 0, 0), "label":"<tspan font-weight = \"bold\"> 01/2014:</tspan>Publish book: Human Action Recogniton with Depth Camera", color: "#ddd"}]},
-  {times: [{"starting_time": new Date(2014, 6, 15, 0, 0, 0, 0),
- "ending_time": new Date(2016, 9, 3, 0, 0, 0, 0), "label":"<tspan font-weight = \"bold\">  06/2014:</tspan> Research Scientist at Baidu Deep Learning Research Institue", "color": "#4efc19"}]},
-   {times: [{"starting_time": new Date(2016, 9, 3, 0, 0, 0, 0),
-  "ending_time": new Date(2016, 12, 31, 0, 0, 0, 0), "label":"<tspan font-weight = \"bold\">  06/2014:</tspan> Research Engineer at Google Research", "color": "#4efc19"}]},
+  {times: [{"starting_time": new Date(2008, 8, 1, 0, 0, 0, 0),
+  "ending_time": new Date(2012, 8, 1, 0, 0, 0, 0), "label":"<tspan font-weight = \"bold\"> 08/2008-08/2012 </tspan>: JNTUH, B.Tech Computer Science", "color": "#f6841f"}]},
+  {times: [{"starting_time": new Date(2012, 9, 1, 0, 0, 0, 0),
+  "ending_time" : new Date(2016, 8, 15, 0, 0, 0, 0), "label":"<tspan font-weight = \"bold\">2012-2016 Summer </tspan>: Java/ Big Data Engineer, CTS", "color": "#4efc19"}]},
+  {times: [{"starting_time": new Date(2017, 11, 1, 0, 0, 0, 0),
+  "ending_time": new Date(2016, 8, 1, 0, 0, 0, 0), "label":"<tspan font-weight = \"bold\"> 08/2016-05/2018</tspan>: University of Oklahoma, Masters: Data Science", "color": "#fcd712"}]},
+  {times: [{"starting_time": new Date(2016, 8, 1, 0, 0, 0, 0),
+  "ending_time": new Date(2018, 5, 30, 0, 0, 0, 0), "label":"<tspan font-weight = \"bold\"> 2016-2018 Summer</tspan>: Data Science Graduate Research Assistant,  OU analytics lab","color": "#4efc19"}]},
+  {times: [{"starting_time": new Date(2017, 10, 1, 0, 0, 0, 0),
+  "ending_time": new Date(2018, 5, 30, 0, 0, 0, 0), "label":"<tspan font-weight = \"bold\"> 2017-May 2018</tspan>: Data Scientist Intern, Accenture", "color": "#4efc19"}]},
   ];
   var width = $('#carousel-header').width();
   var chartWidth = Math.min(1500, Math.max(1000, width));
@@ -116,68 +100,28 @@
          </g>
          <rect x="0" y="35" rx="10" ry="10" width="84.55535810863016" cy="35" cx="0" r="7.5" height="15" opacity="0.5" id="timelineItem_0" style="fill: rgb(246, 132, 31);"></rect>
          <text x="89.55535810863016" y="46.25" class="timeline-label" fill="#999">
-            <tspan font-weight="bold"> 09/2003-07/2007 </tspan>
-            : Fudan University Bachelor
+            <tspan font-weight="bold"> 09/2008-08/2012 </tspan>
+            : JNTUH Bachelor
          </text>
          <rect x="75.93293672255274" y="55" rx="10" ry="10" width="29.48311828787762" cy="55" cx="75.93293672255274" r="7.5" height="15" opacity="0.5" id="timelineItem_1" style="fill: rgb(78, 252, 25);"></rect>
          <text x="110.41605501043036" y="66.25" class="timeline-label" fill="#999">
-            <tspan font-weight="bold">2007 Summer </tspan>
-            : Software Engineer Intern, Accenture
+            <tspan font-weight="bold">2012 - 2016 Summer </tspan>
+            : Java/ Big Data Engineer, COgnizant Technology Solutions
          </text>
          <rect x="101.52205825542765" y="75" rx="10" ry="10" width="287.8776172448428" cy="75" cx="101.52205825542765" r="7.5" height="15" opacity="0.5" id="timelineItem_2" style="fill: rgb(252, 215, 18);"></rect>
          <text x="394.39967550027046" y="86.25" class="timeline-label" fill="#999">
-            <tspan font-weight="bold"> 09/2007-07/2010</tspan>
-            : Fudan University Master
+            <tspan font-weight="bold"> 08/2016-05/2018</tspan>
+            : University of Oklahoma Masters
          </text>
          <rect x="186.35555898941513" y="95" rx="10" ry="10" width="25.032836282160243" cy="95" cx="186.35555898941513" r="7.5" height="15" opacity="0.5" id="timelineItem_3" style="fill: rgb(78, 252, 25);"></rect>
          <text x="216.38839527157538" y="106.25" class="timeline-label" fill="#999">
-            <tspan font-weight="bold"> 2008 Summer</tspan>
-            : Research Intern, Microsoft Research Asia
+            <tspan font-weight="bold"> 08/2016 - Present</tspan>
+            : Graduate Research Assistant, OU Data Analytics Lab
          </text>
          <rect x="270.9109170980453" y="115" rx="10" ry="10" width="33.65525766823766" cy="115" cx="270.9109170980453" r="7.5" height="15" opacity="0.5" id="timelineItem_4" style="fill: rgb(78, 252, 25);"></rect>
          <text x="309.5661747662829" y="126.25" class="timeline-label" fill="#999">
-            <tspan font-weight="bold"> 2009 Summer</tspan>
-            : R&amp;D Intern, Baidu Shanghai
-         </text>
-         <rect x="406.36637564706797" y="135" rx="10" ry="10" width="384.6712508691957" cy="135" cx="406.36637564706797" r="7.5" height="15" opacity="0.5" id="timelineItem_5" style="fill: rgb(0, 163, 255);"></rect>
-         <text x="796.0376265162637" y="146.25" class="timeline-label" fill="#999">
-            <tspan font-weight="bold"> 09/2010--06/2014</tspan>
-            : Northwestern University Ph.D.
-         </text>
-         <rect x="486.1933091246234" y="155" rx="10" ry="10" width="25.589121532874916" cy="155" cx="486.1933091246234" r="7.5" height="15" opacity="0.5" id="timelineItem_6" style="fill: rgb(78, 252, 25);"></rect>
-         <text x="516.7824306574983" y="166.25" class="timeline-label" fill="#999">
-            <tspan font-weight="bold"> 2011 Summer</tspan>
-            : Research Intern, Microsoft Research Redmond
-         </text>
-         <rect x="587.9935100054083" y="175" rx="10" ry="10" width="25.589121532874916" cy="175" cx="587.9935100054083" r="7.5" height="15" opacity="0.5" id="timelineItem_7" style="fill: rgb(78, 252, 25);"></rect>
-         <text x="618.5826315382833" y="186.25" class="timeline-label" fill="#999">
-            <tspan font-weight="bold"> 2012 Summer</tspan>
-            : SDE Intern, Google Research
-         </text>
-         <rect x="618.311056169358" y="195" rx="10" ry="10" width="20.872286177856758" cy="195" cx="618.311056169358" r="7.5" height="15" opacity="0.5" id="timelineItem_8" style="fill: rgb(0, 163, 255);"></rect>
-         <text x="644.1833423472148" y="206.25" class="timeline-label" fill="#999">
-            <tspan font-weight="bold"> 2012 Fall</tspan>
-            : Visiting student, UCLA VCLA lab
-         </text>
-         <rect x="689.5155682608361" y="215" rx="10" ry="10" width="25.589121532874916" cy="215" cx="689.5155682608361" r="7.5" height="15" opacity="0.5" id="timelineItem_9" style="fill: rgb(78, 252, 25);"></rect>
-         <text x="720.1046897937109" y="226.25" class="timeline-label" fill="#999">
-            <tspan font-weight="bold"> 2013 Summer</tspan>
-            : SDE Intern, Google
-         </text>
-         <rect x="749.3278219887198" y="235" rx="10" ry="10" width="9.167117360735533" cy="235" cx="749.3278219887198" r="7.5" height="15" opacity="0.5" id="timelineItem_10" style="fill: rgb(221, 221, 221);"></rect>
-         <text x="763.4949393494553" y="246.25" class="timeline-label" fill="#999">
-            <tspan font-weight="bold"> 01/2014:</tspan>
-            Publish book: Human Action Recogniton with Depth Camera
-         </text>
-         <rect x="791.0376265162637" y="255" rx="10" ry="10" width="225.57366916479953" cy="255" cx="791.0376265162637" r="7.5" height="15" opacity="0.5" id="timelineItem_11" style="fill: rgb(78, 252, 25);"></rect>
-         <text x="1021.6112956810632" y="266.25" class="timeline-label" fill="#999">
-            <tspan font-weight="bold">  06/2014:</tspan>
-            Research Scientist at Baidu Deep Learning Research Institue
-         </text>
-         <rect x="1016.6112956810632" y="275" rx="10" ry="10" width="33.38870431893688" cy="275" cx="1016.6112956810632" r="7.5" height="15" opacity="0.5" id="timelineItem_12" style="fill: rgb(78, 252, 25);"></rect>
-         <text x="1055" y="286.25" class="timeline-label" fill="#999">
-            <tspan font-weight="bold">  06/2014:</tspan>
-            Research Engineer at Google Research
+            <tspan font-weight="bold"> 08/2016 - Present</tspan>
+            : Data Scientist Intern Accenture
          </text>
       </g>
    </svg>
