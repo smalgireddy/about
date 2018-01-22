@@ -32,6 +32,7 @@
 <div class="user-projects">
   <div class="images-right">
     <img alt="mountains" src="{{ "/assets/img/aso.jpg" | prepend: site.baseurl }}" />
+    <img alt="mountains" src="{{ "/assets/img/amo.jpg" | prepend: site.baseurl }}" />
   </div>
   <div class="contents">
     <h3> Animal Shelter Outcomes: Classification </h3>
@@ -41,6 +42,19 @@
     </ul>
     <p>Using a dataset of intake information including breed, color, sex, and age from the Austin Animal Center, we should predict the outcome for each animal. The objective of this project is to predict the outcome of animals placed in shelters given features such as the animal’s age, breed, and color. There are 5 possible outcomes for each animal (shown in figure #) with euthanasia being the worst outcome. From the predictions, the shelter hopes to be able to determine which animals are likely to be euthanized as well as find trends into what features increases the chance for adoption. This provides a chance for shelters to make an effort to aid animals with a low chance of adoption. The overall goal is to decrease the yearly number of animals euthanized. This project has 3 phases, they are preprocessing, feature engineering and building the models, finally evaluation of models. I built Multinomial regression, Support Vector Machines, Random Forest, Neural Network and XGboost classifiers on the data, after fine tuning with grid-based approach, the Random Forest model performed quite well with AUC of 0.82 and OOB error was about 35% for this model.</p>
     <a class="project-link" href="https://github.com/smalgireddy/Shelter-Animal-Outcomes">Check it out</a>
+  </div>
+</div>
+<div class="user-projects">
+  <div class="images-left">
+    <img alt="mountains" src="{{ "/assets/img/doom.png" | prepend: site.baseurl }}" />
+  </div>
+  <div class="contents-right">
+    <h3> Playing Doom with Reinforcement Learning and Linear Feature Repre-sentations </h3>
+    <ul>
+      <li> Python, OpenCV, Reinforcement Learning: SARSA, Q-Learning</li>
+    </ul>
+    <p>In this Project, our agent is in a closed room and has to battle against several demons that can be classified in two types: demons throwing fire balls (they only move to the sides), and short-distance attack demons that slowly approach to our agent. Both of them respawn. The specific characteristics of the game are as follow. The objective on each episode is to kill as many monsters. For every monster killed, 1 point is received, and for every time our agent is killed, one point is subtracted. There are three possible actions for our agent: turn left, turn right and shoot. To complete the goal proposed in the simulator, the agent needs to reach 15 as the best 100-episode average reward. To get 15 points in one episode our agent either has to kill 16 monsters before being killed, or kill 15 monsters without being killed. In this work, we create a machine learning agent that play Doom Defend Line, which is a scenario from the classic game Doom. We hypothesize that by using two different RL methods separately we can create an agent that is competi-tive enough to score 15 points in average through 100 con-secutive episodes which is the goal proposed in the simula-tor website.</p>
+    <a class="project-link" href="https://github.com/smalgireddy/Doom-Reinforcement-Learning">Check it out</a>
   </div>
 </div>
 <div class="user-projects">
